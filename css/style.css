@@ -64,7 +64,7 @@ p{
     #intro img{
         height: 300px;
         width: 300px;
-        padding-left: 100px;
+        padding-left: 0px;
     }
     #info{
         display: flex;
@@ -78,23 +78,15 @@ p{
     #intro #inintro{
         padding-left: 0px;
         display: block;
-        justify-content: center;
+        text-align: center;
     }
 
-    h1{
-        padding-left: 180px;
-        margin-bottom: 0px;
+   #intro{
+       display:block !important;
+       text-align:center;
     }
     p{
-        
-        font-size: 17px !important;
-        padding-left: 120px;
-        max-width: 290px !important;
-    }
-    h3{
-        padding-left:177px ;
-        margin-top: 5px;
-        
+        font-size:18px !important;
     }
 }
 
